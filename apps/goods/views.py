@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from .serializers import GoodsSerializers, GoodsCategoryBrandserializers
+from .serializers import GoodsSerializers, GoodsCategoryBrandserializers, CategorySerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from .models import Goods
+from .models import Goods, GoodsCategory
 from rest_framework import mixins
 from rest_framework import generics
 from goods.models import GoodsCategoryBrand
@@ -22,7 +22,7 @@ class GoodsPagination(PageNumberPagination):
 
 
 class GoodsListViewset(mixins.ListModelMixin, viewsets.GenericViewSet):
-    queryset = Goods.objects.all()
+    queryset = Goods.objects.all().order_by('id')
     serializer_class = GoodsSerializers
     pagination_class = GoodsPagination
 
@@ -44,3 +44,12 @@ class GoodsCategoryBrandView(APIView):
         brand = GoodsCategoryBrand.objects.all()[0:10]
         brand_serializer = GoodsCategoryBrandserializers(brand, many=True)
         return Response(brand_serializer.data)
+
+
+class CategoryViewSet(mixins.ListModelMixin,mixins.RetrieveModelMixin,viewsets.GenericViewSet):
+    '''
+    list:
+        商品分类列表数据
+    '''
+    queryset = GoodsCategory.objects.filter(category_type=1)
+    serializer_class = CategorySerializer

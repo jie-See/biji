@@ -20,7 +20,7 @@ from rest_framework.authtoken import views
 
 from biji.settings import MEDIA_ROOT
 from django.views.static import serve
-from goods.views import GoodsListViewset,GoodsCategoryBrandView
+from goods.views import GoodsListViewset,GoodsCategoryBrandView, CategoryViewSet
 from rest_framework.documentation import include_docs_urls
 from trade.views import orderview
 # from user.views import Userprofile
@@ -43,6 +43,7 @@ router = DefaultRouter()
 router.register(r'goods', GoodsListViewset)
 router.register(r'code', SmsCodeViewset, base_name="code")
 router.register(r'users', UserViewset, base_name="users")
+router.register(r'categorys', CategoryViewSet, base_name="categorys")
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
@@ -51,7 +52,8 @@ urlpatterns = [
     url(r'^', include(router.urls)),
     url(r'^login', obtain_jwt_token),
     # url(r'^api-token-auth/', views.obtain_auth_token)
-    # url(r'^docs/', include_docs_urls(title="生鲜")),
+    url(r'^docs/', include_docs_urls(title="生鲜")),
+    url(r'^api-auth/',include('rest_framework.urls')),
     # url(r'^trade/', orderview.as_view(), name="order_list"),
     # url(r'^user/', Userprofile.as_view(), name="user"),
     # url(r'^useroperation/', usermsgviews.as_view(), name="userfav"),

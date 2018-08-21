@@ -29,3 +29,27 @@ class GoodsCategoryBrandserializers(serializers.ModelSerializer):
     class Meta:
         model = GoodsCategoryBrand
         fields = '__all__'
+
+
+class CategorySerializer3(serializers.ModelSerializer):
+    '''三级分类'''
+    class Meta:
+        model = GoodsCategory
+        fields = '__all__'
+
+
+class CategorySerializer2(serializers.ModelSerializer):
+    sub_cat = CategorySerializer3(many=True)
+    '''二级分类'''
+    class Meta:
+        model = GoodsCategory
+        fields = '__all__'
+
+
+class CategorySerializer(serializers.ModelSerializer):
+    '''一级类别序列化'''
+    sub_cat = CategorySerializer2(many=True)
+    class Meta:
+        model = GoodsCategory
+        fields = "__all__"
+
