@@ -24,7 +24,7 @@ from goods.views import GoodsListViewset,GoodsCategoryBrandView, CategoryViewSet
 from rest_framework.documentation import include_docs_urls
 from trade.views import orderview
 # from user.views import Userprofile
-from user_operation.views import usermsgviews
+from user_operation.views import usermsgviews, UserFavViewset
 import xadmin
 from rest_framework.routers import DefaultRouter
 from rest_framework_jwt.views import obtain_jwt_token
@@ -44,6 +44,7 @@ router.register(r'goods', GoodsListViewset)
 router.register(r'code', SmsCodeViewset, base_name="code")
 router.register(r'users', UserViewset, base_name="users")
 router.register(r'categorys', CategoryViewSet, base_name="categorys")
+router.register(r'userfavs', UserFavViewset, base_name='userfavs')
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),

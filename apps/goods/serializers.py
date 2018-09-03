@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 
 from rest_framework import serializers
-from goods.models import Goods
+from goods.models import Goods, GoodsImage
 from goods.models import GoodsCategory
 from goods.models import GoodsCategoryBrand
 
@@ -17,8 +17,15 @@ class CategorySerializers(serializers.ModelSerializer):
         # return Goods.objects.create(**validated_data)
 
 
+class GoodsImageSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = GoodsImage
+        fields = ("image",)
+
+
 class GoodsSerializers(serializers.ModelSerializer):
     category = CategorySerializers()
+    images = GoodsImageSerializer(many=True)
 
     class Meta:
         model = Goods
