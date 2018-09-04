@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01cb5c5e-d39f-4af3-a710-1667fa5bf0ba" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/user_operation/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user_operation/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/user_operation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user_operation/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/biji/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/biji/urls.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/apps/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biji/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/biji/settings.py" afterDir="false" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,44 +36,99 @@
     <session id="970197533">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="28" />
+          <entry key="py" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="28" />
+          <entry key="Python" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="648" />
-          <entry key="py@biji" value="46" />
+          <entry key="py" value="649" />
+          <entry key="py@biji" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="9" />
+          <entry key="CommandLine" value="21" />
           <entry key="PLAIN_TEXT" value="37" />
-          <entry key="Python" value="648" />
+          <entry key="Python" value="649" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/biji/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
               <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/biji/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="169" column="1" lean-forward="true" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
+              <folding>
+                <element signature="e#303#312#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/user/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="100" column="45" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/biji/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#220#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/goods/filters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+              <folding>
+                <element signature="e#24#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/biji/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
               <folding>
                 <element signature="e#663#703#0" expanded="true" />
               </folding>
@@ -79,11 +139,25 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/user_operation/views.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="413">
               <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="e#0#145#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="420">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="24" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
             </state>
           </provider>
         </entry>
@@ -91,10 +165,17 @@
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/user_operation/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1166">
               <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+=======
+            <state relative-caret-position="840">
+              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
               </folding>
             </state>
           </provider>
@@ -137,9 +218,14 @@
         <option value="$PROJECT_DIR$/apps/trade/serializers.py" />
         <option value="$PROJECT_DIR$/apps/goods/filter.py" />
         <option value="$PROJECT_DIR$/apps/utils/yunpian.py" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/apps/user/serializers.py" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
         <option value="$PROJECT_DIR$/extra_apps/xadmin/widgets.py" />
         <option value="$PROJECT_DIR$/apps/goods/views.py" />
         <option value="$PROJECT_DIR$/apps/goods/serializers.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/apps/goods/filters.py" />
         <option value="$PROJECT_DIR$/biji/settings.py" />
         <option value="$PROJECT_DIR$/apps/utils/permissions.py" />
@@ -148,6 +234,11 @@
         <option value="$PROJECT_DIR$/apps/user_operation/serializers.py" />
         <option value="$PROJECT_DIR$/apps/user_operation/views.py" />
         <option value="$PROJECT_DIR$/biji/urls.py" />
+=======
+        <option value="$PROJECT_DIR$/biji/urls.py" />
+        <option value="$PROJECT_DIR$/biji/settings.py" />
+        <option value="$PROJECT_DIR$/apps/user/views.py" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
       </list>
     </option>
   </component>
@@ -161,8 +252,14 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="422" />
     <option name="width" value="1306" />
+=======
+    <option name="x" value="403" />
+    <option name="y" value="90" />
+    <option name="width" value="1241" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -184,6 +281,16 @@
             </path>
             <path>
               <item name="biji" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
+=======
+              <item name="biji" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biji" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
               <item name="biji" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="goods" type="462c0819:PsiDirectoryNode" />
@@ -372,6 +479,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="422" y="0" width="1306" height="1050" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32786885" />
@@ -388,9 +496,30 @@
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+=======
+    <frame x="403" y="90" width="1241" height="1050" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19729044" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="manage.py@biji" order="0" sideWeight="0.4996624" weight="0.53114754" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32790446" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
       <window_info anchor="bottom" id="Debug" order="4" weight="0.30777657" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+<<<<<<< HEAD
+=======
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32786885" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32896176" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49898717" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50159913" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49840087" visible="true" weight="0.33114755" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -426,6 +555,10 @@
     <entry file="file://$USER_HOME$/Envs/shop/Lib/site-packages/rest_framework/views.py" />
     <entry file="file://$USER_HOME$/Envs/shop/Lib/site-packages/rest_framework_jwt/views.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1265060718/builtins.py" />
+<<<<<<< HEAD
+=======
+    <entry file="file://$USER_HOME$/Envs/shop/Lib/site-packages/rest_framework/mixins.py" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
     <entry file="file://$PROJECT_DIR$/apps/user/adminx.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -556,6 +689,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/apps/user/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -594,28 +728,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="175" selection-start-line="175" selection-end-line="175" />
+=======
+    <entry file="file://$USER_HOME$/Envs/DjangoProject/Lib/site-packages/django/forms/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
+    <entry file="file://$USER_HOME$/Envs/DjangoProject/Lib/site-packages/rest_framework/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="375" selection-start-line="375" selection-end-line="375" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/DjangoProject/Lib/site-packages/django/core/servers/basehttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biji/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#220#229#0" expanded="true" />
+          </folding>
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="17">
           <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+=======
+        <state relative-caret-position="200">
+          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+          <folding>
+            <element signature="e#24#45#0" expanded="true" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/Envs/shop/Lib/site-packages/rest_framework/generics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5">
           <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+=======
+    <entry file="file://$USER_HOME$/Envs/DjangoProject/Lib/site-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Envs/shop/Lib/site-packages/django/utils/autoreload.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="211">
           <caret line="224" selection-start-line="224" selection-end-line="224" />
         </state>
@@ -627,26 +812,63 @@
           <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+=======
+        <state relative-caret-position="620">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/apps/user_operation/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="e#0#145#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/biji/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+          <folding>
+            <element signature="e#663#703#0" expanded="true" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/biji/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="193">
           <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+=======
+        <state relative-caret-position="265">
+          <caret line="169" column="1" lean-forward="true" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
+>>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
           <folding>
             <element signature="e#663#703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="100" column="45" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

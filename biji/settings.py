@@ -164,10 +164,10 @@ REST_FRAMEWORK = {
 }
 
 #
-# AUTHENTICATION_BACKENDS = (
-#     'user.views.CustomBackend',
-#
-# )
+AUTHENTICATION_BACKENDS = (
+    'user.views.CustomBackend',
+
+)
 
 
 import datetime
