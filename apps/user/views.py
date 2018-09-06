@@ -2,16 +2,16 @@ import datetime
 
 from django.contrib.auth.backends import ModelBackend
 from django.shortcuts import render
-<<<<<<< HEAD
+
 from rest_framework_jwt.serializers import jwt_payload_handler
 from rest_framework_jwt.utils import jwt_encode_handler
 
 from .serializers import UserRegSerializer, UserDtailSerializer
-=======
+
 from rest_framework_jwt.serializers import jwt_payload_handler, jwt_encode_handler
 
 from .serializers import UserRegSerializer
->>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
+
 from rest_framework.views import APIView
 from .models import UserProfile
 from rest_framework.response import Response
@@ -101,10 +101,9 @@ class UserViewset(mixins.CreateModelMixin, mixins.UpdateModelMixin, mixins.Retri
     '''
     serializer_class = UserRegSerializer
     queryset = User.objects.all()
-<<<<<<< HEAD
+
     authentication_classes = (JSONWebTokenAuthentication, authentication.SessionAuthentication)
-=======
->>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
+
 
     def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
@@ -119,7 +118,7 @@ class UserViewset(mixins.CreateModelMixin, mixins.UpdateModelMixin, mixins.Retri
 
         return Response(re_dict, status=status.HTTP_201_CREATED, headers=headers)
 
-<<<<<<< HEAD
+
     # 这里需要动态权限配置
     # 1.用户注册的时候不应该有权限限制
     # 2.当想获取用户详情信息的时候，必须登录才行
@@ -147,14 +146,10 @@ class UserViewset(mixins.CreateModelMixin, mixins.UpdateModelMixin, mixins.Retri
     def get_object(self):
         return self.request.user
 
-=======
->>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
+
     def perform_create(self, serializer):
         return serializer.save()
 
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 8b17a8a663d07dac8e010e0e23a3dafee2791da1
